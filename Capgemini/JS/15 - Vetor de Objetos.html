@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Vetor de Objetos</title>
+
+   <!-- JS -->
+   <script>
+
+      //vetor
+      var cursos = [
+         { nome: "html", cargaHoraria: 20, sala: 4 },
+         { nome: "css", cargaHoraria: 20, sala: 6 },
+         { nome: "js", cargaHoraria: 40, sala: 4 }
+      ]
+
+      //exibir objetos
+
+      //exibe [object Object]
+      //alert(cursos[2]);
+
+      alert(cursos[2].nome)
+
+      alert("Curso de " + cursos[2].nome + " ocorre na sala " + cursos[2].sala +
+      " e possui carga horária de " + cursos[2].cargaHoraria  + " horas/aula.")
+
+
+
+   </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>

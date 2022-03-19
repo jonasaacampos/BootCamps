@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Seletores classes</title>
+
+   <!-- JS -->
+   <script>
+
+      function exibirTexto() {
+         //armazenar tag com a classe texto
+         var campo = document.getElementsByClassName("texto")[2];
+
+         alert(campo.innerHTML)
+      }
+
+
+   </script>
+
+</head>
+
+<body>
+
+   <button onclick="exibirTexto()">Clique aqui</button>
+
+   <h1 class="texto">Curso JS</h1>
+   <h2 class="texto">Fundamentos</h2>
+   <h3 class="texto">Baby steps</h3>
+   <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti porro quo quam corporis cumque ab
+      culpa eos iusto at. Incidunt nostrum, cumque numquam sed rerum sint sit cupiditate molestias ea?</p>
+
+
+</body>
+
+</html>

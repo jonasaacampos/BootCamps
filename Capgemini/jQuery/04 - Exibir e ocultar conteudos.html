@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <title>Document</title>
+
+   <!-- jQuery -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+   <!-- JS -->
+   <script>
+
+      //ao carregar o documento
+      $(document).ready(function() {
+         //exibir
+         $("#show").click(function name(params) {
+            $("img").show();
+         })
+
+         //ocultar
+         $("#hide").click(function name(params) {
+            $("img").hide();
+         });
+      })
+
+   </script>
+
+</head>
+
+<body>
+
+   <button id="show">Exibir</button>
+   <button id="hide">Ocultar</button>
+   <br>
+
+   <img src="img/logo_capgemini_start-program.png" alt="Capgemini Start Program Logo">
+
+</body>
+
+</html>

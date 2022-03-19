@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:-//Moodle Pty Ltd//NONSGML Moodle Version 2020061501.13//EN
+VERSION:2.0
+BEGIN:VEVENT
+UID:59@capgeminischool.brazilsouth.cloudapp.azure.com
+SUMMARY:Fórum é devido
+DESCRIPTION:Fórum [1]\n\nLinks:\n------\n[1] http://capgeminischool.brazils
+	outh.cloudapp.azure.com/mod/forum/view.php?id=40\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20220316T113839Z
+DTSTAMP:20220318T233150Z
+DTSTART:20220316T113300Z
+DTEND:20220316T113300Z
+CATEGORIES:Eventos de site
+END:VEVENT
+BEGIN:VEVENT
+UID:60@capgeminischool.brazilsouth.cloudapp.azure.com
+SUMMARY:Fórum é devido
+DESCRIPTION:Fórum [1]\n\n\nLinks:\n------\n[1] http://capgeminischool.brazi
+	lsouth.cloudapp.azure.com/mod/forum/view.php?id=265\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20220316T114628Z
+DTSTAMP:20220318T233150Z
+DTSTART:20220416T114000Z
+DTEND:20220416T114000Z
+CATEGORIES:ILP
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Evento de teclado</title>
+
+   <!-- JS -->
+   <script>
+
+      /* 
+         onKeyUp: Primeiro exibe o caractere, depois executa algo
+   
+         onKeyDown: Primeiro executa algo, depois exibe o caractere
+   
+         onKeyPress: Primeiro executa algo, depois exibe o caractere
+            **não suporta teclas especiais**
+   
+      */
+
+      function exibir() {
+         //capturar o valor do campo de texto
+         var campo = document.getElementById("campo").value;
+
+         //exibir o valor do campo de texto
+         alert(campo)
+      }
+
+   </script>
+
+</head>
+
+
+<body>
+
+   <input type="text" name="campo" id="campo" onkeyup="exibir()">
+
+
+</body>
+
+</html>
