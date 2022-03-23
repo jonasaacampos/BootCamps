@@ -8,7 +8,13 @@
    <title>NetFlix Clone</title>
 
    <link rel="stylesheet" href="style/main.css">
-   <script src="https://kit.fontawesome.com/80545afba9.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="style/owl/owl.carousel.css">
+   <link rel="stylesheet" href="style/responsive.css">
+
+   <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+      </style> 
+
 
 </head>
 
@@ -35,14 +41,14 @@
                que separa os passageiros por classes sociais, mas nem todos estão satisfeitos com essa divisão.</p>
             <div class="btns">
                <button class="button" role="button">
-               <i class="fas  fa-play"></i>
+                  <i class="fas  fa-play"></i>
                   Assistir
                </button>
                <button class="button" role="button">
                   <i class="fas  fa-info-circle"></i>
                   Info</button>
             </div>
-            
+
          </div>
 
 
@@ -50,6 +56,48 @@
       </div>
    </main>
 
+
+   <div class="carrocel-filmes">
+      <div class="owl-carousel owl-theme">
+         <div class="item">
+            <img class="box-filme"src="img/thumbs/01.jpg">
+         </div>
+         <div class="item">
+            <img class="box-filme"src="img/thumbs/02.jpg">
+         </div>
+         <div class="item">
+            <img class="box-filme"src="img/thumbs/03.jpg">
+         </div>
+         <div class="item">
+            <img class="box-filme"src="img/thumbs/04.jpg">
+         </div>
+         <div class="item">
+            <img class="box-filme"src="img/thumbs/05.jpg">
+         </div>
+         <div class="item">
+            <img class="box-filme"src="img/thumbs/06.jpg">
+         </div>
+         <div class="item">
+            <img class="box-filme"src="img/thumbs/07.jpg">
+         </div>
+         <div class="item">
+            <img class="box-filme"src="img/thumbs/08.jpg">
+         </div>
+         <div class="item">
+            <img class="box-filme"src="img/thumbs/09.jpg">
+         </div>
+         <div class="item">
+            <img class="box-filme"src="img/thumbs/10.jpg">
+        </div>
+      </div>
+   </div>
+
+
+   <script src="https://kit.fontawesome.com/80545afba9.js" crossorigin="anonymous"></script>
+   <!-- https://owlcarousel2.github.io/OwlCarousel2/ -->
+   <script src="js/owl/jquery.min.js"></script>
+   <script src="js/owl/owl.carousel.min.js"></script>
+   <script src="js/owl/main.js"></script>
 </body>
 
 </html>
