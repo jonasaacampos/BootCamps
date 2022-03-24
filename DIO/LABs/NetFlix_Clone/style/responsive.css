@@ -15,5 +15,11 @@
    .description{
       width: 60%;
    }
-   
+
+   .carrocel-filmes img{
+      margin-top: 2px;
+      width: 30%;
+
+      
+   }
 }
