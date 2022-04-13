@@ -13,8 +13,8 @@ consultar dados atualizados da pandemia covid-19 no mundo através da API: https
 ### Projeto online
 
 **Iniciando servidor**
-![alt text](C:\Users\Usuário\Documents\Jonas\Codes\CovidApp\environment\covid19-dio-pwa-em-reactjs\img\01_start.gif)
+![alt text](img/01_start.gif)
 **Demo**
-![alt text](C:\Users\Usuário\Documents\Jonas\Codes\CovidApp\environment\covid19-dio-pwa-em-reactjs\img\02_demo.gif)
+![alt text](img/02_demo.gif)
 
 
