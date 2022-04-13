@@ -1,14 +1,20 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# Painel de acompanhamento em tempo real da Covid-19 em React JS
+
+## Startando o projeto
+
+* `npm i`
+* `npm run start`
+
+### O que faz
+
+Uma aplicação web com tecnologia PWA que permite ser adicionada em dispositivos mobile para
+consultar dados atualizados da pandemia covid-19 no mundo através da API: https://coronavirus-19-api.herokuapp.com/countries
+
+### Projeto online
+
+**Iniciando servidor**
+![alt text](C:\Users\Usuário\Documents\Jonas\Codes\CovidApp\environment\covid19-dio-pwa-em-reactjs\img\01_start.gif)
+**Demo**
+![alt text](C:\Users\Usuário\Documents\Jonas\Codes\CovidApp\environment\covid19-dio-pwa-em-reactjs\img\02_demo.gif)
 
 
-Hi there! Welcome to AWS Cloud9!
-
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
